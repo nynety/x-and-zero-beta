@@ -6,9 +6,6 @@ body {
 .game-container {
     background-color: aqua;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
     position: fixed;
     top: 0;
     bottom: 0;
@@ -19,6 +16,10 @@ body {
 
 .game-center {
     display: grid;
+    position: absolute;
+    left: 373px;
+    top: 120px;
+    
     grid-template-columns: 1fr 1fr 1fr;
     background-color: gold;
     height: 600px;
