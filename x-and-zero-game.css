@@ -142,6 +142,13 @@ input {
     background-color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .tools {
+        width: 10%;
+    }
+    
+}
+
 .turnnn {
     background-color: yellow;
 }
