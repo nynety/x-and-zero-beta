@@ -6,8 +6,12 @@ body {
 .game-container {
     background-color: aqua;
     display: flex;
-    width: 900px;
-    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    
     vertical-align: middle;
 }
 
