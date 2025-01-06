@@ -143,9 +143,154 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.game-container {
+    background-color: aqua;
+    display: flex;
+    max width: inner width;
+    max height: inner height;
+    vertical-align: middle;
+}
+
+.game-center {
+    display: grid;
+    position: absolute;
+    left: 373px;
+    top: 120px;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gold;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+    .button {
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin: 0px;
+    padding: 0px;
+    height: 193px;
+}
+
+img {
+    height: 193px;
+    width: 193px;
+}
+
+.control {
+    background-color: aqua;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    height: 100px;
+    align-self: center;
+    align-items: center;
+}
+
+    .choice {
+    font-size: 30px;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 30px;
+    margin-right: 10px;
+    height: 70px;
+}
+
+.info {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-type {
+    font-size: 30px;
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 30px;
+    margin-right: 10px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+h3 {
+    background-color: beige;
+    margin: 0px;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+    input {
+    font-size: 30px;
+    width: 250px;
+}
+
+.ok {
+    border-width: 10px;
+    border-color: gold;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.best {
+    background-color: aqua;
+    position: fixed;
+    top: 100px;
+    right: 0px;
+
+    z-index: 4;
+    height: 200px;
+    width: 250px;
+}
+
+    .turn {
+    background-color: aqua;
+    position: fixed;
+    top: 300px;
+    right: 0px;
+
+    z-index: 4;
+    height: 250px;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+.indicator {
+    background-color: white;
+}
+    
     .tools {
+        background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+    bottom: 0px;
+
+
+    z-index: 4;
+    left: 0px;
         width: 10%;
     }
+
+    .turnnn {
+    background-color: yellow;
+}
+
     
 }
 
